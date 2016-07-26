@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-mvn clean compile war:war 
-java -jar target/dependency/webapp-runner.jar --port 8081 target/*.war
+if [ -z $1 ] ;then
+ port=8080
+else 
+ port=$1
+fi
+mvn clean compile war:war
+java -jar target/dependency/webapp-runner.jar --port $port target/*.war

@@ -1,0 +1,6 @@
+{
+  "name": "Spring ecommerce",
+  "description": "Spring mvn ecommerce store",
+  "repository": "https://github.com/babkamen/demo.git",
+  "keywords": ["spring", "ecommerce"]
+}

@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-mvn clean compile war:war 
-java -jar target/dependency/webapp-runner.jar target/*.war

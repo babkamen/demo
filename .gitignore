@@ -1,9 +1,6 @@
 *~
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files #
 *.jar
 *.war
@@ -13,12 +10,6 @@
 hs_err_pid*
 
 
-*.java.hsp
-*.sonarj
-*.sw*
-.DS_Store
-.settings
-.springBeans
 bin
 build.sh
 integration-repo

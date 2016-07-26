@@ -125,8 +125,24 @@
     </dependencies>
     <build>
     <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
+      <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <executions>
+        <execution>
+            <phase>package</phase>
+            <configuration>
+                <webappDirectory>target/</webappDirectory>
+                <archiveClasses>true</archiveClasses>
+            </configuration>
+            <goals>
+                <goal>war</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+  <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
             <version>2.3</version>
             <executions>

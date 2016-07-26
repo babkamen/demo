@@ -4,5 +4,5 @@ if [ -z $1 ] ;then
 else 
  port=$1
 fi
-mvn clean compile war:war
+mvn clean compile war:war install
 java -jar target/dependency/webapp-runner.jar --port $port target/*.war

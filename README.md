@@ -1,5 +1,3 @@
-[![Try](http://i.picresize.com/images/2016/07/27/qClxz.png)](https://spring-estore.herokuapp.com/)
-
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
